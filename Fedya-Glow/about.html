@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez l'histoire de Fedya Glow, nos valeurs et notre engagement pour la beauté">
+    <title>À Propos - Fedya Glow</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-content">
+                    <div class="logo">
+                        <a href="index.html">
+                            <h1>FEDYA GLOW</h1>
+                            <p class="tagline">Beauté Authentique</p>
+                        </a>
+                    </div>
+                    
+                    <nav class="nav-menu" id="navMenu">
+                        <ul>
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="products.html">Produits</a></li>
+                            <li><a href="about.html" class="active">À Propos</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+
+                    <div class="header-actions">
+                        <button class="cart-btn" id="cartBtn">
+                            <i class="fas fa-shopping-bag"></i>
+                            <span class="cart-count" id="cartCount">0</span>
+                        </button>
+                        <button class="menu-toggle" id="menuToggle">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>À Propos de Fedya Glow</h1>
+            <p>Notre histoire, nos valeurs</p>
+        </div>
+    </section>
+
+    <!-- About Content -->
+    <section class="about-content">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2>Notre Mission</h2>
+                    <p>Chez Fedya Glow, nous croyons que chaque personne mérite de révéler son éclat naturel. Nous proposons des produits de beauté premium, soigneusement sélectionnés pour leur qualité exceptionnelle et leur efficacité prouvée.</p>
+                    <p>Notre mission est de rendre la beauté de luxe accessible à tous, tout en respectant votre peau et l'environnement.</p>
+                </div>
+                <div class="about-image">
+                    <i class="fas fa-heart" style="font-size: 10rem; color: var(--accent);"></i>
+                </div>
+            </div>
+
+            <div class="values-section">
+                <h2 class="section-title">Nos Valeurs</h2>
+                <div class="values-grid">
+                    <div class="value-card">
+                        <i class="fas fa-gem"></i>
+                        <h3>Qualité Premium</h3>
+                        <p>Sélection rigoureuse de produits haut de gamme</p>
+                    </div>
+                    <div class="value-card">
+                        <i class="fas fa-leaf"></i>
+                        <h3>Respect de la Nature</h3>
+                        <p>Formules respectueuses de l'environnement</p>
+                    </div>
+                    <div class="value-card">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Sécurité</h3>
+                        <p>Produits testés dermatologiquement</p>
+                    </div>
+                    <div class="value-card">
+                        <i class="fas fa-heart"></i>
+                        <h3>Authenticité</h3>
+                        <p>Transparence et honnêteté dans nos engagements</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3>Mon Panier</h3>
+            <button class="close-cart" id="closeCart">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="cart-items" id="cartItems"></div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span class="total-amount" id="totalAmount">0 €</span>
+            </div>
+            <button class="btn btn-whatsapp" id="whatsappCheckout">
+                <i class="fab fa-whatsapp"></i>
+                Commander sur WhatsApp
+            </button>
+        </div>
+    </div>
+
+    <!-- Floating Buttons -->
+    <div class="floating-buttons">
+        <a href="https://wa.me/33123456789" class="float-btn whatsapp" target="_blank" title="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://instagram.com/fedyaglow" class="float-btn instagram" target="_blank" title="Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://tiktok.com/@fedyaglow" class="float-btn tiktok" target="_blank" title="TikTok">
+            <i class="fab fa-tiktok"></i>
+        </a>
+        <a href="https://facebook.com/fedyaglow" class="float-btn facebook" target="_blank" title="Facebook">
+            <i class="fab fa-facebook"></i>
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>FEDYA GLOW</h4>
+                    <p>Votre destination beauté premium.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="products.html">Produits</a></li>
+                        <li><a href="about.html">À Propos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Fedya Glow. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/cart.js"></script>
+    <script src="assets/js/ui.js"></script>
+    <script src="assets/js/whatsapp.js"></script>
+</body>
+</html>

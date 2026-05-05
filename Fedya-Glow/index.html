@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fedya Glow - Boutique de beauté premium avec produits cosmétiques de luxe">
+    <meta name="keywords" content="beauté, cosmétiques, maquillage, parfums, soins">
+    <title>Fedya Glow - Beauté & Élégance</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-content">
+                    <div class="logo">
+                        <h1>FEDYA GLOW</h1>
+                        <p class="tagline">Beauté Authentique</p>
+                    </div>
+                    
+                    <nav class="nav-menu" id="navMenu">
+                        <ul>
+                            <li><a href="index.html" class="active">Accueil</a></li>
+                            <li><a href="products.html">Produits</a></li>
+                            <li><a href="about.html">À Propos</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+
+                    <div class="header-actions">
+                        <button class="cart-btn" id="cartBtn">
+                            <i class="fas fa-shopping-bag"></i>
+                            <span class="cart-count" id="cartCount">0</span>
+                        </button>
+                        <button class="menu-toggle" id="menuToggle">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2 class="hero-title">Révélez Votre Éclat</h2>
+            <p class="hero-subtitle">Collections exclusives de beauté premium</p>
+            <a href="products.html" class="btn btn-primary">Découvrir</a>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="section-title">Nos Collections</h2>
+            <div class="categories-grid">
+                <div class="category-card" data-category="maquillage">
+                    <div class="category-image">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Maquillage</h3>
+                    <p>Lèvres, Yeux, Teint</p>
+                    <a href="products.html?category=maquillage" class="category-link">Explorer</a>
+                </div>
+
+                <div class="category-card" data-category="parfums">
+                    <div class="category-image">
+                        <i class="fas fa-spray-can"></i>
+                    </div>
+                    <h3>Parfums</h3>
+                    <p>Fragrances Exclusives</p>
+                    <a href="products.html?category=parfums" class="category-link">Explorer</a>
+                </div>
+
+                <div class="category-card" data-category="soins">
+                    <div class="category-image">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>Soins</h3>
+                    <p>Visage & Corps</p>
+                    <a href="products.html?category=soins" class="category-link">Explorer</a>
+                </div>
+
+                <div class="category-card" data-category="accessoires">
+                    <div class="category-image">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>Accessoires</h3>
+                    <p>Pinceaux & Outils</p>
+                    <a href="products.html?category=accessoires" class="category-link">Explorer</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products">
+        <div class="container">
+            <h2 class="section-title">Produits Vedettes</h2>
+            <div class="products-grid" id="featuredProducts">
+                <!-- Products will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3>Mon Panier</h3>
+            <button class="close-cart" id="closeCart">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="cart-items" id="cartItems">
+            <!-- Cart items will be loaded here -->
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span class="total-amount" id="totalAmount">0 €</span>
+            </div>
+            <button class="btn btn-whatsapp" id="whatsappCheckout">
+                <i class="fab fa-whatsapp"></i>
+                Commander sur WhatsApp
+            </button>
+        </div>
+    </div>
+
+    <!-- Floating Buttons -->
+    <div class="floating-buttons">
+        <a href="https://wa.me/33123456789" class="float-btn whatsapp" target="_blank" title="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://instagram.com/fedyaglow" class="float-btn instagram" target="_blank" title="Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://tiktok.com/@fedyaglow" class="float-btn tiktok" target="_blank" title="TikTok">
+            <i class="fab fa-tiktok"></i>
+        </a>
+        <a href="https://facebook.com/fedyaglow" class="float-btn facebook" target="_blank" title="Facebook">
+            <i class="fab fa-facebook"></i>
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>FEDYA GLOW</h4>
+                    <p>Votre destination beauté premium pour révéler votre éclat naturel.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="products.html">Produits</a></li>
+                        <li><a href="about.html">À Propos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fab fa-whatsapp"></i> +33 1 23 45 67 89</li>
+                        <li><i class="fas fa-envelope"></i> contact@fedyaglow.com</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Suivez-nous</h4>
+                    <div class="social-links">
+                        <a href="https://instagram.com/fedyaglow" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://facebook.com/fedyaglow" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://tiktok.com/@fedyaglow" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Fedya Glow. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/cart.js"></script>
+    <script src="assets/js/ui.js"></script>
+    <script src="assets/js/whatsapp.js"></script>
+</body>
+</html>

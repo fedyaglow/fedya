@@ -1,0 +1,36 @@
+{
+  "name": "fedya-glow",
+  "version": "1.0.0",
+  "description": "Boutique e-commerce élégante avec système de commande WhatsApp - Produits de beauté premium",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8080 -o",
+    "dev": "npx live-server --port=8080",
+    "deploy:netlify": "netlify deploy --prod",
+    "deploy:vercel": "vercel --prod"
+  },
+  "keywords": [
+    "e-commerce",
+    "whatsapp",
+    "boutique",
+    "beaute",
+    "cosmetics",
+    "shopping-cart",
+    "responsive",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Fedya Glow",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/votre-username/fedya-glow.git"
+  },
+  "bugs": {
+    "url": "https://github.com/votre-username/fedya-glow/issues"
+  },
+  "homepage": "https://fedyaglow.com",
+  "devDependencies": {},
+  "dependencies": {}
+}
