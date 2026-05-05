@@ -6,10 +6,10 @@ class WhatsAppCheckout {
         // IMPORTANT: Remplacez par votre numéro WhatsApp
         // Format: Code pays + numéro (sans +, sans espaces)
         // Exemples: 
-        // France: 33612345678
+        // France: 33605821519
         // Maroc: 212612345678
         // Belgique: 32470123456
-        this.phoneNumber = '33123456789'; 
+        this.phoneNumber = '33605821519'; 
         
         this.setupEventListeners();
     }
@@ -57,7 +57,7 @@ class WhatsAppCheckout {
 
         message += '━━━━━━━━━━━━━━━━━━━━\n';
         message += `💰 *TOTAL: ${cart.getTotal().toFixed(2)} €*\n\n`;
-        message += '📍 Merci de confirmer votre adresse de livraison.';
+        message += '📍 Je Souhaite Passer Une Commande Merci beaucoup.';
 
         return message;
     }

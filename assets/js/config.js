@@ -21,10 +21,10 @@ const FEDYA_CONFIG = {
     // ================================================
     whatsapp: {
         // Format: code pays + numéro SANS + ni espaces
-        // France:   33612345678
+        // France:   33605821519
         // Maroc:    212612345678
         // Belgique: 32470123456
-        number: '33123456789',
+        number: '33605821519',
         
         // Messages personnalisables
         messages: {

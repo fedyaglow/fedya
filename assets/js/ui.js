@@ -6,22 +6,22 @@
 const products = [
     {
         id: 1,
-        name: 'Rouge à Lèvres Velours Rose',
-        category: 'maquillage',
-        price: 24.90,
-        oldPrice: 32.00,
-        image: 'assets/images/products/image.webp',
-        url: 'assets/categories/maquillage/levres/lipstick-rose.html',
-        description: 'Fini mat velouté longue tenue'
+        name: 'Triumph - Recharge parfum homme(Formato:15 ml)',
+        category: 'parfums',
+        price: 1.00,
+        oldPrice: 00,
+        image: 'assets/images/products/parfum1.jpeg',
+        url: '#',
+        description:'Cod(T061) Un parfum frais, sensuel et sportif qui cherche à incarner une vision moderne de la virilité. '
     },
     {
         id: 2,
         name: 'Rouge à Lèvres Nude',
-        category: 'maquillage',
+        category: 'parfums',
         price: 24.90,
         oldPrice: 32.00,
-        image: 'assets/images/products/lipstick-nude-1.jpg',
-        url: 'assets/categories/maquillage/levres/lipstick-nude.html',
+        image: 'assets/images/products/parfum1.jpeg',
+        url: '#',
         description: 'Teinte nude naturelle'
     },
     {
@@ -40,7 +40,7 @@ const products = [
         category: 'soins',
         price: 34.90,
         oldPrice: 45.00,
-        image: 'assets/images/products/serum-1.jpg',
+        image: 'assets/images/products/parfum1.jpeg',
         url: '#',
         description: 'Anti-âge et hydratant'
     },
@@ -50,7 +50,7 @@ const products = [
         category: 'accessoires',
         price: 39.90,
         oldPrice: 55.00,
-        image: 'assets/images/products/brushes-1.jpg',
+        image: 'assets/images/products/parfum1.jpeg',
         url: '#',
         description: '12 pinceaux professionnels'
     },
@@ -60,7 +60,7 @@ const products = [
         category: 'maquillage',
         price: 44.90,
         oldPrice: 60.00,
-        image: 'assets/images/products/palette-1.jpg',
+        image: 'assets/images/products/parfum1.jpeg',
         url: '#',
         description: '18 teintes harmonieuses'
     },
@@ -70,7 +70,7 @@ const products = [
         category: 'maquillage',
         price: 29.90,
         oldPrice: 38.00,
-        image: 'assets/images/products/foundation-1.jpg',
+        image: 'assets/images/products/parfum1.jpeg',
         url: '#',
         description: 'Couvrance moyenne, fini naturel'
     },
@@ -80,10 +80,20 @@ const products = [
         category: 'maquillage',
         price: 19.90,
         oldPrice: 26.00,
-        image: 'assets/images/products/mascara-1.jpg',
+        image: 'assets/images/products/parfum1.jpeg',
         url: '#',
         description: 'Volume xxl sans paquets'
-    }
+    },
+{
+    id: 101,
+    name: "Wild Bloom",
+    category: "parfums-femme",
+    price: 39.90,
+    oldPrice: 55.00,
+    image: "assets/images/products/parfum1.jpeg",
+    url: "assets/categories/parfums/femme/wild-bloom.html",
+    description: "Parfum féminin intense et élégant"
+}
 ];
 
 // ===== INITIALISATION AU CHARGEMENT DE LA PAGE =====
