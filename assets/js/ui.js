@@ -85,7 +85,7 @@ const products = [
         description: 'Volume xxl sans paquets'
     },
 {
-    id: 101,
+    id: 9,
     name: "Wild Bloom",
     category: "parfums-femme",
     price: 39.90,
@@ -93,7 +93,20 @@ const products = [
     image: "assets/images/products/parfum1.jpeg",
     url: "assets/categories/parfums/femme/wild-bloom.html",
     description: "Parfum féminin intense et élégant"
+},
+
+
+{
+    id: 10,
+    name: "Parfum femme essence(006)(70ml)",
+    category: "parfums",
+    price: 35.00,
+    oldPrice: 00,
+    image: "assets/images/products/f1.jpeg",
+    url: "assets/categories/parfums/femme/wild-bloom.html",
+    description: "Plus qu’un parfum : un sillage opulent, séduisant et inimitable. Un billet aller simple vers un ailleurs symbolique et énigmatique. Un voyage imaginaire dans une terre de rêve au charme inattendu. Une fragrance qui permet de vivre la vie à son apogée, de franchir une porte ouverte vers un univers imaginaire, extraordinaire, mystérieux, riche en sensations et en émotions.\n\nRÉFÉRENCE CPNP : 5040539\n\nPyramide olfactive :\nNote de tête : Bergamote, Mandarine, Muguet\nNote de cœur : Jasmin, Myrrhe\nNote de fond : Ambre, Opoponax somalien, Patchouli, Vanille"
 }
+
 ];
 
 // ===== INITIALISATION AU CHARGEMENT DE LA PAGE =====
